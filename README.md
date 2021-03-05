@@ -1,4 +1,4 @@
-# Maharashtra-Tourism-Website
+# Rushikesh1796.Maharashtra-Tourism-Website
 
 Created Maharashtra Tourism Website using Django and Bootstrap.
 website have many tabs including contact form.
