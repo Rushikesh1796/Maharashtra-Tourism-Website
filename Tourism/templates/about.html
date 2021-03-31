@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+About Page
+{% endblock title %}
+
+
+{% block body %}
+
+
+<font face="calibri" color="white" size=5><h1 style="background-color:DodgerBlue;"><marquee direction="right">Welcome to About Page</marquee></font></h1>
+
+
+<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-interval="4000">
+      <img src="/static/about1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-interval="4000">
+      <img src="/static/about2.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div><br><br>
+
+<b><h2 style="background-color: dodgerblue;">About Us:</h2></b>
+<br><br><br>
+
+<h4><i>Maharashtra Tourism Development Corporation (MTDC) has been established under the Companies Act, 1956, (fully owned by Govt. of Maharashtra) for systematic development of tourism on commercial lines, with an authorized share capital of Rs. 25 crore. The paid up share capital of the Corporation as on 31st March 2013 is Rs. 1538.88 lakhs.<br><br>
+The Corporation receives from the State Government financial assistance in the form of share capital and grants. The State Government has entrusted all commercial and promotional tourism activities to this Corporation.<br><br>
+MTDC has, since its inception, been involved in the development and maintenance of the various tourist locations of Maharashtra. MTDC owns and maintains resorts at all key tourist centers and having more resorts is on the plan.</i></h4><br><br><br><br>
+
+{% endblock body %}

@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+
+
+{% block title %}
+Maharashtra Tourism
+{% endblock title %}
+
+
+{% block body %}
+
+<font face="ariel" color="Black" size=5><h1 style="background-color:DodgerBlue;"><marquee direction="right">Welcome to Maharashtra Tourism</font></marquee></h1><br><br>
+<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-interval="4000">
+      <img src="/static/img3.jpeg" class="d-block w-100" style="border: solid;" height="500" alt="...">
+    </div>
+    <div class="carousel-item" data-interval="4000">
+      <img src="/static/img2.png" class="d-block w-100" style="border: solid;" height="500" alt="...">
+    </div>
+    <div class="carousel-item" data-interval="4000">
+      <img src="/static/img1.jpg" class="d-block w-100" style="border: solid;" height="500" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<div class="jumbotron">
+  <h1 class="display-4" style="background-color:dodgerblue;">Hello, Family!</h1>
+  <h6 class="lead">Welcome to Maharashtra Tourism.<br>
+   Education For The Mind & Education For The Heart.  </h6>
+  <hr class="my-4">
+  <h6>We are happy to tell you about our new information about forts please click below to get the details.</h6>
+  <a class="btn btn-primary btn-lg" href="/contact" role="button">Learn more</a>
+</div>
+
+{% endblock body %}
